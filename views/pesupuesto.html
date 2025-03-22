@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <!--Configuración básica y metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Martifix | Reparación de Electrodomésticos y Climatización en Zaragoza">
+    <meta name="description"
+        content="MartiFix ofrece reparación de aires acondicionados, calderas, frigoríficos, vitrocerámicas y más en Zaragoza. Servicio rápido, económico y confiable.">
+    <meta name="keywords"
+        content="reparación electrodomésticos Zaragoza, técnico climatización Zaragoza, servicio técnico Zaragoza, arreglar aire acondicionado Zaragoza, reparar frigorífico Zaragoza, técnico calderas Zaragoza, MartiFix">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Martifix</title>
+</head>
+
+<body>
+    <header>
+         <!-- Header con logo y título -->
+        <img src="../images/Logo.png" alt="Logo MartiFix reparación de Electrodomésticos y climatización en Zaragoza"
+            class="logo">
+        <div>
+            <h1 class="titulo">MartiFix</h1>
+        </div>
+
+    </header>
+        <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="../Index.html">Inicio</a></li>
+            <li><a href="../views/servicios.html">Servicios</a></li>
+            <li><a href="../views/pesupuesto.html" class="activa">Presupuesto</a></li>
+            <li><a href="../views/contacto.html">Contacto</a></li>
+
+
+        </ul>
+    </nav>
+        <!-- Contenido principal -->
+    <main>
+        <section class="mainpres">
+            <h1>Solicita tu Presupuesto</h1>
+            <form>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required
+                    placeholder="Ej: Pepito Pérez">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required
+                    placeholder="ejemplo@gmail.es">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"
+                    pattern="[0-9]{9}" required placeholder="Ej: 600123456">
+                <label for="mensaje">Cuéntanos que te pasa y nosotros te ayudaremos:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"
+                    cols="50" required placeholder="Ej: Necesito reparar una lavadora, cuánto costaría?"></textarea>
+                <label>
+                    <input type="checkbox" name="privacidad" required> Acepto la política de privacidad</label>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Redes Sociales -->
+        <div class="redes">
+            <a href="https://facebook.com/MartifixZaragoza" target="_blank">
+                <img class="facebook" src="../images/facebook.ico" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/Martifix" target="_blank">
+                <img class="twitter" src="../images/twitter.ico" alt="twitter">
+            </a>
+            <a href="https://instagram.com/Martifix" target="_blank">
+                <img class="instagram" src="../images/instagram.ico" alt="instagram">
+            </a>
+        </div>
+
+        <!-- Dirección de la empresa -->
+        <div class="direccion">
+            <p><strong>Martifix | Reparación de Electrodomésticos y Climatización</strong></p>
+            <p>Calle Mayor, 45, 50001 Zaragoza, España</p>
+            <p>Teléfono: <a href="tel:+34600123456">+34 600 123 456</a></p>
+            <p>Email: <a href="mailto:contacto@martifix.com">contacto@martifix.com</a></p>
+        </div>
+
+        <!-- Derechos de Autor -->
+        <div class="derechos">
+            <p>© 2025 Martifix | Todos los derechos reservados. | <a href="aviso-legal.html">Aviso Legal</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
